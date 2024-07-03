@@ -1,5 +1,4 @@
 import { copyrightSign } from "../assets/icons";
-import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img
-              src={footerLogo}
+              src=./public/default.svg
               alt='logo'
               width={150}
               height={46}
