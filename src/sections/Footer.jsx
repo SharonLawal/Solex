@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img
-              src='/default.svg'
+              src="./public/default.png"
               alt='logo'
               width={150}
               height={46}
@@ -23,7 +23,7 @@ const Footer = () => {
             {socialMedia.map((icon) => (
               <div
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
-                key={icon.alt} // Ensure unique key
+                key={icon.alt}
               >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </div>
@@ -33,7 +33,7 @@ const Footer = () => {
 
         <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
           {footerLinks.map((section) => (
-            <div key={section.title}> {/* Ensure unique key */}
+            <div key={section.title}>
               <h4 className='font-montserrat text-2xl leading-normal font-medium mb-6 text-white'>
                 {section.title}
               </h4>
