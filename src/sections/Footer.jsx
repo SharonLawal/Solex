@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img
-              src=./public/default.svg
+              src="./public/default.svg"
               alt='logo'
               width={150}
               height={46}
