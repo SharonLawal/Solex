@@ -14,7 +14,7 @@ Welcome to the Solex repository! This project showcases the development of the S
 
 ## Introduction
 
-Solex is a premium footwear brand designed to meet the needs of an active lifestyle. Our website offers a seamless shopping experience, highlighting our latest arrivals and providing detailed product information.
+Solex is a modern React-based e-commerce storefront built to demonstrate responsive frontend development, reusable components, and mobile-first design using React and Tailwind CSS.
 
 ## Features
 
